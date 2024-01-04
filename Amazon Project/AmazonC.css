@@ -1,0 +1,333 @@
+*{
+    margin: 0px;
+    border: border-box;
+    font-family: Arial;
+}
+.navbar{
+    height: 60px;
+
+    background-color: #0f1111;
+    justify-content: space-evenly;
+    display: flex;
+    color: white;
+    align-items:center
+    
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+}
+header{
+    align-items: center;
+}
+.amazon{
+    height: 50px;
+    width: 100px;
+    color: white;
+}
+.amazon-logo{
+    height: 50px;
+    width: 100%;
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+}
+/** second box location**/
+
+.location{
+    height: 50px;
+    width: 100px;
+    color: white;
+}
+.deliver{
+    margin-left: 15px;
+    color: #cccccc;
+    font-size: 12px;
+   
+}
+.location-India{
+    font-size: 14px;
+    display: flex;
+}
+/** box 3 search bar*/
+
+.search{
+    width: 850px;
+    height: 40px;
+    display: flex;
+}
+.search-all{
+width: 50px;
+text-align: center;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+background-color: #D6D6D6;
+border: none;
+}
+.search-bar{
+ width: 100%;
+ font-size: 14px;
+border: none;
+}
+.search-icon{
+    width: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    background-color: #febd68;
+}
+.search:hover{
+    border: 2px solid orange;
+}
+/** box 4 hello sign**/
+
+.singin{
+    font-size: 12px;
+}
+.list{
+    font-size: 14px;
+}
+/** box 5 cart*/
+
+.buy{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    
+}
+/** second navigation bar*/
+
+.navbar2{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly;
+    
+}
+.All{
+    margin-left: 10px;
+    height: 28px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.last-box{
+    width: 1500px;
+    display: flex;
+    margin-left: 15px;
+    font-size: 14px;
+}
+.box1{
+    margin-left: 15px;
+}
+.box2{
+    margin-left: 15px;
+}
+.box3{
+    margin-left: 15px;
+}
+.box4{
+    margin-left: 15px;
+}
+.box5{
+    margin-left: 15px;
+}
+/** nav bar end*/
+
+.hero{
+    height: 300px;
+    background-color: pink;
+    background-image: url("hero-image.jpg");
+    background-size: cover;
+}
+/* hero image end*/
+
+.B{
+    height: 420px;
+    background-color: #E3E6E6;
+    display: flex;
+    justify-content: space-evenly;
+}
+.b1{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+}
+.b1 div{
+    height: 80%;
+    background-image: url("laptop1.jpg");
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.b1 p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 200;
+    padding-top: 10px;
+}
+.b1 a{
+    height: 16px;
+    font-size: 13px;
+    color: #007185;
+   margin-left: 20px;
+   
+}
+/* b1 end */
+.b2{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+}
+.b2 div{
+    height: 80%;
+    background-image: url("watch.jpg");
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.b2 p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 200;
+    padding-top: 10px;
+}
+.b2 a{
+    height: 16px;
+    font-size: 13px;
+    color: #007185;
+   margin-left: 20px;
+   
+}
+/* b2 end */
+.b3{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+}
+.b3 div{
+    height: 80%;
+    background-image: url("T1-shirt.jpg");
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.b3 p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 200;
+    padding-top: 10px;
+}
+.b3 a{
+    height: 16px;
+    font-size: 13px;
+    color: #007185;
+   margin-left: 20px;
+   
+}
+/* b3 end */
+.b4{
+    height: 400px;
+    width: 350px;
+    background-color: white
+}
+.b4 div{
+    height: 80%;
+    background-image: url("Kurta-pant.jpg");
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.b4 p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 200;
+    padding-top: 10px;
+}
+.b4 a{
+    height: 16px;
+    font-size: 13px;
+    color: #007185;
+   margin-left: 20px;
+   
+}
+/* b4 end */
+/* hero box second */
+.hero2{
+    height: 300px;
+    background-image: url("hero-image2.jpg");
+    background-size: cover;
+}
+/* footer is start */
+.f1{
+    height: 50px;
+    background-color: #222f3d;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f2{
+    height: 450px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.div1{
+    height: 300px;
+}
+.div2{
+    height: 300px;
+}
+.div3{
+    height: 300px;
+}
+.div4{
+    height: 300px;
+}
+.footer h3{
+  font-size: 16px;
+}
+.footer p{
+    font-size: 14px;
+    color: #DDDDDD;
+    padding-top: 15px;
+}
+/* last div start in footer */
+
+.lastdiv{
+    height: 80px;
+    background-color: #131A22;
+    color: white;
+    text-align: center;
+}
+.lastdiv1{
+    height: 19px;
+    display: flex;
+    justify-content: center;
+     font-size: 12px;
+     padding-top: 20px;
+}
+.lastdiv1 a{
+    padding-left: 15px;
+}
+.lastdiv2{
+    height: 19px;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
